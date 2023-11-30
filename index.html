@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Render All Elements -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/portfolio.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="container">
+            <img src="assets/logo.jpg" alt="">
+            <nav>
+                <span class="icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                <ul class="links">
+                    <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
+                    <li><a href="#my-skills" onclick="toggleMenu()">My Skills</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
+                </ul>
+        </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Landing -->
+    <div class="landing">
+        <div class="contant">
+            <div class="text">
+                <p>Hello I'm</p>
+                <h1>Majd Alosaimi</h1>
+                <p>Front-End Developer</p>
+            </div>
+            <div class="btn-container">
+                <button class="btn color1" onclick="window.open('assets/CV.pdf')">Download CV</button>
+                <button class="btn color2" onclick="location.href='/#contact'">Contact Info</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Landing -->
+
+    <!-- Start About -->
+        <div class="about section-border" id="about">
+            <div class="container">
+                    <h2 class="main-heading">About <span>Me</span></h2>
+                <div class="about-container">
+                    <p>I'm Majd Alosaimi, i'm a student at Shaqra University, i'm learning front-end development
+                        and want to be a Web Developer </p>
+                        <div class="edu-sec">
+                            <div class="edu">
+                                <h3>Education</h3>
+                                <p>Computer Science Student at Shagra University</p>
+                            </div>
+                            <div class="course boxes-style">
+                                <h3>Certifications</h3>
+                                <ul>
+                                    <li>Computer basics</li>
+                                    <li>Excel for beginners</li>
+                                    <li>Creative thinking</li>
+                                    <li>Smart learning skills</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    <!-- End About -->
+    <!-- Start My Skills -->
+    <div class="skills section-border" id=my-skills>
+        <div class="container">
+            <h2 class="main-heading">My <span>Skills</span></h2>
+            <div class="skills-container">
+                <div class="hard-skills">
+                    <h2>Hard Skills</h2>
+                    <div class="col">
+                        <div class="skill">
+                            <h3>HTML</h3>
+                            <p>Experienced</p>
+                        </div>
+                        <div class="skill">
+                            <h3>CSS</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+                
+                    <div class="col">
+                        <div class="skill">
+                            <h3>JavaScript</h3>
+                            <p>Intermediate</p>
+                        </div>
+                        <div class="skill">
+                            <h3>Git</h3>
+                            <p>Intermediate</p>
+                        </div>
+                </div>
+                </div>
+                <div class="soft-skills">
+                    <h2>Soft Skills</h2>
+                    <div class="col">
+                        <div class="skill">
+                            <h3>Problem Solving</h3>
+                        </div>
+                        <div class="skill">
+                            <h3>Fast Learning</h3>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skill">
+                            <h3>Team Work</h3>
+                        </div>
+                        <div class="skill">
+                            <h3>Flexibility</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End My Skills -->
+    <!-- Start Projects -->
+    <div class="projects section-border" id="projects">
+        <div class="container">
+            <h2 class="main-heading">My Recent <span>Projects</span></h2>
+            <div class="projects-container">
+                <div class="image">
+                    <img src="assets/project1.png" alt="">
+                </div>
+                <div class="image">
+                    <img src="assets/project2.png" alt="">
+                </div>
+                <div class="image">
+                    <img src="assets/project3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Projects -->
+    <!-- Start Contact -->
+    <div class="contact" id="contact">
+        <div class="container">
+            <h2 class="main-heading">My <span>Contact</span></h2>
+            <div class="social">
+                <i class="fa-brands fa-linkedin" onclick="location.href='www.linkedin.com/in/majd-alosaimi-158086286'"></i>
+                <i class="fa-brands fa-square-github" onclick="location.href='https://github.com/majdalosaimi'"></i>
+                <a href="mailto:Majdalosaimi@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact -->
+    <!-- Start Footer -->
+    <footer>
+        <p>2023 &copy; ; made by <b>Majd Alosaimi</b></p>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="JS/script2.js"></script>
+</body>
+</html>
