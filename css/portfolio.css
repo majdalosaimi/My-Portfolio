@@ -663,31 +663,8 @@ header nav ul li a:hover {
     align-items: center;
 }
 
-.projects .projects-container img {
-    width: 380px;
-    height: 300px;
-}
-
-@media (min-width: 1199px) {
-    .projects .projects-container {
-        margin-left: -30px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .projects .projects-container img {
-        width: 330px;
-    }
-}
-
-@media (max-width: 350px) {
-    .projects .projects-container .image {
-        justify-items: flex-start;
-    }
-
-    .projects .projects-container img {
-        width: 250px;
-    }
+.projects .projects-container .image img {
+    max-width: 100%;
 }
 
 /* End Projects */
